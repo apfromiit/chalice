@@ -4,7 +4,7 @@
 #
 #    pip-compile --output-file=requirements-test.txt --resolver=backtracking requirements-test.in
 #
-attrs==21.4.0
+attrs==22.2.0
     # via
     #   -r requirements-test.in
     #   hypothesis
@@ -23,18 +23,10 @@ coverage[toml]==7.1.0
     # via
     #   -r requirements-test.in
     #   pytest-cov
-exceptiongroup==1.1.0
-    # via
-    #   hypothesis
-    #   pytest
 hypothesis==6.68.1
     # via -r requirements-test.in
 idna==3.4
     # via requests
-importlib-metadata==6.0.0
-    # via
-    #   pluggy
-    #   pytest
 iniconfig==2.0.0
     # via pytest
 jmespath==1.0.1
@@ -63,17 +55,9 @@ six==1.16.0
     # via python-dateutil
 sortedcontainers==2.4.0
     # via hypothesis
-tomli==2.0.1
-    # via
-    #   coverage
-    #   pytest
-typing-extensions==4.4.0
-    # via importlib-metadata
 urllib3==1.26.14
     # via
     #   botocore
     #   requests
 websocket-client==1.5.1
     # via -r requirements-test.in
-zipp==3.13.0
-    # via importlib-metadata
